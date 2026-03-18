@@ -53,7 +53,7 @@
       "typedRoutes": true,
       "reactCompiler": true,
       // Importante para que despliegue en carpeta en plataforma web.
-      "baseUrl": "/bancaza"
+      //"baseUrl": "/bancaza"
     },
     "extra": {
       "router": {},
