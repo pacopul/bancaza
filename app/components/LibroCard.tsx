@@ -31,7 +31,8 @@ const LibroCard = ({ item }: Props) => {
                 <Text style={styles.subtitulo}>{item.Editorial}</Text>
                 <Text style={styles.detalle}>Materia: {item.Materia}</Text>
                 <Text style={styles.detalle}>Curso: {item['Oferta Educativa']}</Text>
-                <Text style={styles.detalle}>Alumno: {item['Alumnado con libro']}</Text>
+                <Text style={styles.detalle}>Id: {item.id}</Text>
+                <Text style={styles.titulo}>Alumno: {item['Alumnado con libro']}</Text>
             </View>
         </Pressable>
     );
