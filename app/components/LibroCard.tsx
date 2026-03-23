@@ -32,7 +32,7 @@ const LibroCard = ({ item }: Props) => {
                 <Text style={styles.detalle}>Materia: {item.Materia}</Text>
                 <Text style={styles.detalle}>Curso: {item['Oferta Educativa']}</Text>
                 <Text style={styles.detalle}>Id: {item.id}</Text>
-                <Text style={styles.titulo}>Alumno: {item['Alumnado con libro']}</Text>
+                <Text style={styles.alumno}>{item['Alumnado con libro']}</Text>
             </View>
         </Pressable>
     );
@@ -69,6 +69,12 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '600',
         marginBottom: 4,
+    },
+    alumno: {
+        fontSize: 16,
+        fontWeight: '600',
+        marginBottom: 4,
+        color: '#5f1414',
     },
     subtitulo: {
         fontSize: 14,
