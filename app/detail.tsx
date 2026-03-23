@@ -71,7 +71,7 @@ export default function DetailScreen() {
     <View style={styles.screenContainer}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <Image
-          source={{ uri: `http://www.ies-azarquiel.es/paco/bl/portadas/${libro.ISBN}.jpg` }}
+          source={{ uri: `https://pacopul.github.io/bancaza/assets/portadas/${libro.ISBN}.jpg` }}
           style={styles.imagenFull}
         />
         <View style={styles.infoContainer}>
