@@ -66,6 +66,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     titulo: {
+        color: '#781010',
         fontSize: 16,
         fontWeight: '600',
         marginBottom: 4,
@@ -74,7 +75,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '600',
         marginBottom: 4,
-        color: '#5f1414',
+        color: '#781010',
     },
     subtitulo: {
         fontSize: 14,

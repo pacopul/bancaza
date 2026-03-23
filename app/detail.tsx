@@ -80,7 +80,7 @@ export default function DetailScreen() {
           <Text style={styles.detalle}>Materia: {libro.Materia}</Text>
           <Text style={styles.detalle}>Curso: {libro['Oferta Educativa']}</Text>
           <Text style={styles.detalle}>Id: {libro.id}</Text>
-          <Text style={styles.titulo}>Alumno: {libro['Alumnado con libro']}</Text>
+          <Text style={styles.alumno}>:{libro['Alumnado con libro']}</Text>
         </View>
       </ScrollView>
     </View>
@@ -132,10 +132,17 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   titulo: {
+    color: '#781010',
     fontSize: 18,
     fontWeight: '600',
     marginBottom: 4,
-  },
+  },    
+  alumno: {
+        fontSize: 16,
+        fontWeight: '600',
+        marginBottom: 4,
+        color: '#5f1414',
+    },
   subtitulo: {
     fontSize: 14,
     color: '#555',
