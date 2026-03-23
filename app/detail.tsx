@@ -80,7 +80,7 @@ export default function DetailScreen() {
           <Text style={styles.detalle}>Materia: {libro.Materia}</Text>
           <Text style={styles.detalle}>Curso: {libro['Oferta Educativa']}</Text>
           <Text style={styles.detalle}>Id: {libro.id}</Text>
-          <Text style={styles.alumno}>:{libro['Alumnado con libro']}</Text>
+          <Text style={styles.alumno}>{libro['Alumnado con libro']}</Text>
         </View>
       </ScrollView>
     </View>
